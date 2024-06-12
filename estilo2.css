@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  
+  body {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas:
+        "header header header header"
+        "cont cont cont cont"
+        "footer footer footer footer";
+    }
+  
+    header {
+      grid-area: header;
+      height: 140px;
+      background-color: rgb(241, 142, 143);
+      display: flex;
+      padding: 10px;
+      width: 100%;
+      justify-content:space-between;
+  
+    }
+    
+    header h1 {
+      color: antiquewhite;
+      font-size: 40px;
+      line-height: 120px;
+      font-family: "Marcellus";
+      text-shadow: 2px 2px 6px rgb(0, 0, 0);
+    display: flex;
+    }
+    
+    
+    nav {
+      width: auto;
+      height: 100%;
+    }
+    
+    header nav ul {
+      display: flex;
+      list-style: none;
+      height: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    header nav ul li {
+      padding: 10px;
+      color: rgb(246, 237, 237);
+      width: 100px;
+      text-align: center;
+      font-family: "Poppins";
+    }
+    
+    header nav ul a {
+      text-decoration: none;
+      font-size: 15px;
+    }
+    
+    header li:hover {
+      transform: scale(1.1);
+      transition: all 0.3s;
+    }
+    
+  
+  header h1 {
+      font-family: 'Playfair Display';
+      font-size: 40px;
+  
+  }
+  
+  h1 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+  
+  }
+  
+  main{
+    grid-area: cont;
+    padding: 30px 40px;
+    background-color: rgb(255, 237, 189);
+    width: 100%;
+    border: solid white;
+    border: 5px;
+    overflow: hidden;
+  }
+  
+  
+   h2{
+  color: brown;
+  font-family: 'Helvetica';
+  font-size: 25px;
+  font-weight: bold;
+   }
+  
+  img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+   main p {
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    display: flex;
+    }
+  
+    .contenedorPrin{
+      width: 100%;
+      height: 300px;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  
+  .img1 {
+    height: 200px;
+    padding: 10px;
+  }
+  
+  h4 {
+  color: rgb(255, 162, 0);
+  font-family: 'Helvetica';
+  font-size: 20px;
+  }
+  
+  main a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Arial';
+  }
+  
+  .img2 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img3 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img4 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img5 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .contenedor2{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img6 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  
+  .img7 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img8 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img9 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img10 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .contenedorEntradas{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;  
+    justify-content: center;
+  }
+  
+  .img11 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img12 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img13 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img14 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .contenedorPostres{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    display: flex; 
+    justify-content: center;
+  }
+  
+  .img15 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img16 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img17 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img18 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .img19 {
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  
+  footer {
+    grid-area: footer;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(247, 195, 105);
+  }
+  
+  footer p {
+    color: antiquewhite;
+    font-family: 'Helvetica';
+    font-size: 20px;
+  }
+  
+  aside {
+    grid-area: aside;
+    width: 300px;
+    height: 100%;
+    background-color:rgb(245, 224, 163);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute; /* Cambia el posicionamiento a absoluto */
+    top: 0;
+    left: -300px; /* Fuera de la vista inicialmente */
+    transition: left 0.3s ease; /* Transición suave */
+  }
+  
+  aside.active {
+    left: 0; /* Posición cuando está visible */
+  }
+  
+  /* Botón para mostrar/ocultar el aside */
+  #toggleButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color:rgb(241, 90, 34);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Asegúrate de que el botón esté por encima del aside */
+  }
+  
+  aside a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-decoration: none;
+  }
+  
+  aside h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica';
+    font-size: 35px;
+  }
+  
+  aside p {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+  }
+  
+  aside a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color: fuchsia;
+  }
+  
+  
