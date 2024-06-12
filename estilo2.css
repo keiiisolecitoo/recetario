@@ -378,4 +378,18 @@
     background-color: fuchsia;
   }
   
+  main button{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    background-color:  rgb(247, 195, 105);
+    border: none;
+    transition: all 0.3s;
+    }
   
+  main button:hover{
+  scale: 1.1;
+  }
+  
+
+
